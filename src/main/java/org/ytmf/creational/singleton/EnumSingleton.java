@@ -1,4 +1,4 @@
-package org.ytmf.ceational;
+package org.ytmf.creational.singleton;
 
 /**
  * 枚举单例的实现

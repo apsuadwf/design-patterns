@@ -1,4 +1,6 @@
-package org.ytmf.ceational;
+package org.ytmf.creational.singleton;
+
+import org.ytmf.creational.singleton.exception.MultipleSingletonException;
 
 /**
  * 懒汉式单例模式的实现

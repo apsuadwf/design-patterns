@@ -1,4 +1,4 @@
-package org.ytmf.ceational;
+package org.ytmf.creational.singleton.exception;
 
 /**
  * 自定义单例异常类

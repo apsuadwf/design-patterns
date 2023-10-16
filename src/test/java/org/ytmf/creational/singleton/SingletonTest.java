@@ -1,4 +1,4 @@
-package org.ytmf.ceational;
+package org.ytmf.creational.singleton;
 
 import org.junit.jupiter.api.Test;
 

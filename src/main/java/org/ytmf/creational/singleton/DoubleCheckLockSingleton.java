@@ -1,6 +1,7 @@
-package org.ytmf.ceational;
+package org.ytmf.creational.singleton;
 
-import java.io.Externalizable;
+import org.ytmf.creational.singleton.exception.MultipleSingletonException;
+
 import java.io.Serializable;
 
 /**
