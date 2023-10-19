@@ -23,7 +23,7 @@ public class ResourceLoader {
     private static final Map<String, IResourceFactory> RESOURCE_FACTORY_CACHE = new HashMap<>();
 
     static {
-        InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("resourceabstract.properties");
+        InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("factory/resourceabstract.properties");
         Properties properties = new Properties();
         try {
             properties.load(inputStream);

@@ -1,7 +1,6 @@
 package org.ytmf.creational.factory.method.v2;
 
 import org.ytmf.creational.factory.exception.ResourceLoadException;
-import org.ytmf.creational.factory.method.v1.Resource;
 import org.ytmf.creational.factory.method.v2.factory.IResourceFactory;
 import org.ytmf.creational.factory.method.v2.product.AbstractResource;
 
@@ -24,7 +23,7 @@ public class ResourceLoader {
     private static final Map<String, IResourceFactory> RESOURCE_FACTORY_CACHE = new HashMap<>();
 
     static {
-        InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("resourcev2.properties");
+        InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream("factory/resourcev2.properties");
         Properties properties = new Properties();
         try {
             properties.load(inputStream);
