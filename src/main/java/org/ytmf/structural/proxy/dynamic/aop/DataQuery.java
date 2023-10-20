@@ -1,4 +1,4 @@
-package org.ytmf.structural.proxy.dynamic.jdk;
+package org.ytmf.structural.proxy.dynamic.aop;
 
 /**
  * 数据查询接口
@@ -10,5 +10,4 @@ package org.ytmf.structural.proxy.dynamic.jdk;
 public interface DataQuery {
     String query(String queryKey);
 
-    String queryAll(String queryKey);
 }
